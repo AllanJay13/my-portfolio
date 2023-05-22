@@ -1,0 +1,67 @@
+.title h4{
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    color: #DAA520;
+    font-size: 30px;
+}
+.title p{
+    margin-top: 3rem;
+    color: white;
+    font-size: 20px;
+}
+.experience_container{
+    display: flex;
+    justify-content: center;
+}
+
+.experience_container > div{
+    background: #c69e3c;
+    color: black;
+    padding: 0 0.1rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+.experience_container > div:hover{
+    background: transparent;
+    border-color: #DAA520;
+    color: white;
+    cursor: default;
+}
+.experience_container .fd{
+    font-family: Georgia;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 1rem;
+    color: white;
+    font-weight: bold;
+    
+}
+ .experience_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.1rem;
+ }
+.experience_details{
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+.experience_details img{
+    width: 60px;
+}
+.experience_details p{
+    font-family: Georgia;
+    margin-top: 10px;
+   font-size: 15px;
+   font-weight: bold;
+}
+.tag p{
+    margin: 2rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
